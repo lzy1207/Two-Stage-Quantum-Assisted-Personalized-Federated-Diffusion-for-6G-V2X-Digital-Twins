@@ -1,0 +1,47 @@
+[
+  {
+    "round": 1,
+    "train_mse_normalized": 1.064695693552494,
+    "val_rmse_db": 6.698440732953319,
+    "val_mae_db": 4.834116458892822,
+    "participating_clients": 4,
+    "shared_parameters": 728,
+    "uploaded_parameters": 728,
+    "paper_bits": 14560,
+    "wire_bits": 14880,
+    "cumulative_paper_bits": 14560,
+    "cumulative_wire_bits": 14880,
+    "cumulative_uplink_mb": 0.00182,
+    "cumulative_wire_mb": 0.00186
+  },
+  {
+    "round": 2,
+    "train_mse_normalized": 1.042562559247017,
+    "val_rmse_db": 6.729727272353855,
+    "val_mae_db": 4.8537468910217285,
+    "participating_clients": 4,
+    "shared_parameters": 728,
+    "uploaded_parameters": 728,
+    "paper_bits": 14560,
+    "wire_bits": 14880,
+    "cumulative_paper_bits": 29120,
+    "cumulative_wire_bits": 29760,
+    "cumulative_uplink_mb": 0.00364,
+    "cumulative_wire_mb": 0.00372
+  },
+  {
+    "round": 3,
+    "train_mse_normalized": 1.0287632644176483,
+    "val_rmse_db": 6.736228102032072,
+    "val_mae_db": 4.847182432810466,
+    "participating_clients": 4,
+    "shared_parameters": 728,
+    "uploaded_parameters": 728,
+    "paper_bits": 14560,
+    "wire_bits": 14880,
+    "cumulative_paper_bits": 43680,
+    "cumulative_wire_bits": 44640,
+    "cumulative_uplink_mb": 0.00546,
+    "cumulative_wire_mb": 0.00558
+  }
+]

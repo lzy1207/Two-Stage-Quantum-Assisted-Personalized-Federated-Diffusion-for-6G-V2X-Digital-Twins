@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "seed": 2025,
+  "split_seed": 2025,
+  "device": "auto",
+  "cpu_threads": 4,
+  "query_batch_size": 1024,
+  "data": {
+    "mode": "npz",
+    "path": "data/radiomapseer.npz",
+    "client_grid": [10, 9],
+    "samples_per_client": 1024,
+    "neighbor_ratio": 0.1
+  },
+  "quantum": {
+    "kind": "quantum",
+    "input_dim": 10,
+    "n_qubits": 8,
+    "n_layers": 4,
+    "hidden_dim": 32,
+    "shots": 100,
+    "gradient_method": "parameter_shift",
+    "entanglement": true
+  },
+  "federated": {
+    "rounds": 400,
+    "local_epochs": 2,
+    "batch_size": 64,
+    "lr": 0.001,
+    "lambda_q": 0.0001,
+    "lambda_v": 0.0001,
+    "topk_ratio": 0.5,
+    "quant_bits": 8,
+    "participation": 1.0,
+    "personalized": true,
+    "confidence_tau": 0.05,
+    "confidence_eps": 0.000001,
+    "error_feedback": false
+  },
+  "diffusion": {
+    "iterations": 20000,
+    "timesteps": 1000,
+    "batch_size": 16,
+    "lr": 0.0002,
+    "weight_decay": 0.0,
+    "beta_start": 0.0001,
+    "beta_end": 0.02,
+    "base_channels": 64,
+    "channel_mults": [1, 2, 4, 4],
+    "embedding_dim": 64,
+    "sigma_pos": 0.04,
+    "loss_weights": [1.0, 0.1, 0.1],
+    "sample_steps": null,
+    "mask_training_loss": false,
+    "grad_clip": 1.0,
+    "validate_every": 1000,
+    "log_every": 100
+  },
+  "evaluation": {"radial_bins": 16},
+  "ablation": {}
+}

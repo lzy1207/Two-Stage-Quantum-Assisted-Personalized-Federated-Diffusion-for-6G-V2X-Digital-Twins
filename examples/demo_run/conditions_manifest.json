@@ -1,0 +1,21 @@
+{
+  "signature": {
+    "stage1_sha256": "834354be2ce804b96e78c4dca817aa7855b0e5801f350ee63abc80d3b16d9846",
+    "data_sha256": "4ff967fb917f89c80bc76a49c8a183a48ce68138f800deb08ec9fc3f75ec4dc3",
+    "split_sha256": "153bed7fddaf789d456e056d5d2756e35fc227004907b7fee8a4815b8d4eb778",
+    "quantum": {
+      "kind": "quantum",
+      "input_dim": 10,
+      "n_qubits": 8,
+      "n_layers": 4,
+      "hidden_dim": 32,
+      "shots": 0,
+      "gradient_method": "adjoint",
+      "entanglement": true
+    },
+    "tau": 0.05,
+    "eps": 1e-06,
+    "confidence": true
+  },
+  "cache_sha256": "229cb66e78d96646353d2c2b37664e3ddf92da04c42acd0df270c7ddff367b50"
+}

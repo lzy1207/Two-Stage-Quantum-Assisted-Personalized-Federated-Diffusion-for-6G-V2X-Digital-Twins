@@ -1,0 +1,29 @@
+{
+  "sha256": "4ff967fb917f89c80bc76a49c8a183a48ce68138f800deb08ec9fc3f75ec4dc3",
+  "count": 12,
+  "height": 16,
+  "width": 16,
+  "metadata": {
+    "source": "synthetic_demo_not_RadioMapSeer",
+    "seed": 2025,
+    "coordinate_system": "normalized_xy",
+    "signal_unit": "dB",
+    "scene_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "generator": "log_distance_obstacle_proxy_v1"
+  },
+  "partition_level": "transmitter-conditioned realization",
+  "split_seed": 2025
+}

@@ -1,0 +1,226 @@
+test_all_zero_update_has_valid_scale_and_roundtrip (test_compression.CompressionTests.test_all_zero_update_has_valid_scale_and_roundtrip) ... ok
+test_dense_float32_is_exact_without_mask (test_compression.CompressionTests.test_dense_float32_is_exact_without_mask) ... ok
+test_int8_quantization_error_and_wire_roundtrip (test_compression.CompressionTests.test_int8_quantization_error_and_wire_roundtrip) ... ok
+test_invalid_input_and_truncated_packets_fail (test_compression.CompressionTests.test_invalid_input_and_truncated_packets_fail) ... ok
+test_sparse_float32_keeps_largest_magnitudes (test_compression.CompressionTests.test_sparse_float32_keeps_largest_magnitudes) ... ok
+test_table_iii_exact_paper_accounting (test_compression.CompressionTests.test_table_iii_exact_paper_accounting) ... ok
+test_client_partition_keeps_transmitters_disjoint_and_records_unique (test_data.DataTests.test_client_partition_keeps_transmitters_disjoint_and_records_unique) ... ok
+test_npz_roundtrip_and_features_are_target_independent (test_data.DataTests.test_npz_roundtrip_and_features_are_target_independent) ... ok
+test_partition_streams_maps_and_never_reads_test_targets (test_data.DataTests.test_partition_streams_maps_and_never_reads_test_targets) ... ok
+test_realization_splits_are_disjoint_exhaustive_reproducible (test_data.DataTests.test_realization_splits_are_disjoint_exhaustive_reproducible) ... ok
+test_scaler_roundtrip_and_constant_data (test_data.DataTests.test_scaler_roundtrip_and_constant_data) ... ok
+test_schema_validation_and_masked_nonfinite (test_data.DataTests.test_schema_validation_and_masked_nonfinite) ... ok
+test_supplied_descriptors_take_precedence (test_data.DataTests.test_supplied_descriptors_take_precedence) ... ok
+test_checkpoint_model_identity (test_diffusion.DiffusionTests.test_checkpoint_model_identity) ... ok
+test_condition_location_and_shape (test_diffusion.DiffusionTests.test_condition_location_and_shape) ... ok
+test_last_ddpm_step_matches_closed_form_without_extra_noise (test_diffusion.DiffusionTests.test_last_ddpm_step_matches_closed_form_without_extra_noise) ... ok
+test_masked_loss_and_invalid_inputs (test_diffusion.DiffusionTests.test_masked_loss_and_invalid_inputs) ... ok
+test_q_sample_inverts_known_noise (test_diffusion.DiffusionTests.test_q_sample_inverts_known_noise) ... ok
+test_sampling_determinism_and_mode_restore (test_diffusion.DiffusionTests.test_sampling_determinism_and_mode_restore) ... ok
+test_structural_loss_respects_normalized_data_range (test_diffusion.DiffusionTests.test_structural_loss_respects_normalized_data_range) ... ok
+test_training_gradients_reach_film_and_inputs (test_diffusion.DiffusionTests.test_training_gradients_reach_film_and_inputs) ... ok
+test_confidence_is_finite_far_from_observations (test_federated.FederatedTests.test_confidence_is_finite_far_from_observations) ... ok
+[Stage I 1/1] val RMSE=8.2620 dB; uplink=0.001048 MB; clients=2
+test_nonpersonalized_heads_aggregate_and_count_in_payload (test_federated.FederatedTests.test_nonpersonalized_heads_aggregate_and_count_in_payload) ... ok
+[Stage I 1/2] val RMSE=8.2846 dB; uplink=0.000043 MB; clients=2
+[Stage I 2/2] val RMSE=8.1859 dB; uplink=0.000043 MB; clients=2
+[Stage I 1/1] val RMSE=8.2846 dB; uplink=0.000043 MB; clients=2
+[Stage I 2/2] val RMSE=8.1859 dB; uplink=0.000043 MB; clients=2
+test_resume_matches_continuous_training (test_federated.FederatedTests.test_resume_matches_continuous_training) ... ok
+test_total_variance_includes_between_client_means (test_federated.FederatedTests.test_total_variance_includes_between_client_means) ... ok
+[Stage I 1/1] val RMSE=72.0374 dB; uplink=0.000043 MB; clients=2
+test_training_checkpoint_and_target_free_conditions (test_federated.FederatedTests.test_training_checkpoint_and_target_free_conditions) ... ok
+test_weighted_aggregation_is_not_uniform (test_federated.FederatedTests.test_weighted_aggregation_is_not_uniform) ... ok
+test_boolean_geometry_and_fallback_features_do_not_use_radio_values (test_import_data.ManifestImportTests.test_boolean_geometry_and_fallback_features_do_not_use_radio_values) ... ok
+test_db_npy_coordinates_and_semantic_masks_roundtrip (test_import_data.ManifestImportTests.test_db_npy_coordinates_and_semantic_masks_roundtrip) ... ok
+test_duplicate_ids_and_partial_features_rejected (test_import_data.ManifestImportTests.test_duplicate_ids_and_partial_features_rejected) ... ok
+test_explicit_six_features_and_semantics (test_import_data.ManifestImportTests.test_explicit_six_features_and_semantics) ... ok
+test_gain_values_preserved_or_shifted_by_explicit_power (test_import_data.ManifestImportTests.test_gain_values_preserved_or_shifted_by_explicit_power) ... ok
+test_invalid_shapes_coords_and_rgb_maps_rejected (test_import_data.ManifestImportTests.test_invalid_shapes_coords_and_rgb_maps_rejected) ... ok
+test_pathloss_and_pixel_coordinates (test_import_data.ManifestImportTests.test_pathloss_and_pixel_coordinates) ... ok
+test_png_requires_declared_calibration (test_import_data.ManifestImportTests.test_png_requires_declared_calibration) ... ok
+test_empty_valid_map_rejected (test_metrics.MetricsTests.test_empty_valid_map_rejected) ... ok
+test_identity_and_monotone_trend (test_metrics.MetricsTests.test_identity_and_monotone_trend) ... ok
+test_missing_radial_pairs_are_json_null (test_metrics.MetricsTests.test_missing_radial_pairs_are_json_null) ... ok
+test_offset_errors_and_mean_power (test_metrics.MetricsTests.test_offset_errors_and_mean_power) ... ok
+test_outward_increase_is_violation (test_metrics.MetricsTests.test_outward_increase_is_violation) ... ok
+test_pooled_rmse_and_mask (test_metrics.MetricsTests.test_pooled_rmse_and_mask) ... ok
+test_ablation_configs_are_distinct_and_do_not_mutate_original (test_pipeline.PipelineTests.test_ablation_configs_are_distinct_and_do_not_mutate_original) ... ok
+Stage I: 2 clients; 68 shared parameters
+[Stage I 1/1] val RMSE=5.9649 dB; uplink=0.000085 MB; clients=2
+Conditions: 1/6
+Conditions: 2/6
+Conditions: 3/6
+Conditions: 4/6
+Conditions: 5/6
+Conditions: 6/6
+Stage II 1/2: loss=1.039613
+Validation RMSE=8.4131 dB; best=8.4131
+Validation RMSE=8.4051 dB; best=8.4051
+{
+  "stage1": {
+    "rmse": 6.409814814608322,
+    "ssim": 0.1305733331615391,
+    "radial_mae": 5.721297480843283,
+    "trend_violation": 0.015056367353958914,
+    "mean_power_db": -78.27233123779297,
+    "mean_power": 0.4459080100059509
+  },
+  "stage2": {
+    "rmse": 7.704520414164017,
+    "ssim": 0.12984666031459086,
+    "radial_mae": 4.281149994243275,
+    "trend_violation": 0.5962675730387351,
+    "mean_power_db": -79.87197530269623,
+    "mean_power": 0.4067990481853485
+  },
+  "test_realization_ids": [
+    3
+  ],
+  "data_range_db": 40.9022102355957,
+  "synthetic": true,
+  "best_iteration": 2,
+  "sampler": "DDIM",
+  "power_normalization": {
+    "minimum_db": -96.51095581054688,
+    "range_db": 40.9022102355957,
+    "clip": false
+  },
+  "note": "Measured outputs of this run, not original paper values."
+}
+Validation RMSE=8.3988 dB; best=8.3988
+{
+  "stage1": {
+    "rmse": 6.409814814608322,
+    "ssim": 0.1305733331615391,
+    "radial_mae": 5.721297480843283,
+    "trend_violation": 0.015056367353958914,
+    "mean_power_db": -78.27233123779297,
+    "mean_power": 0.4459080100059509
+  },
+  "stage2": {
+    "rmse": 7.697126189143971,
+    "ssim": 0.13028742225486598,
+    "radial_mae": 4.275627231597902,
+    "trend_violation": 0.5903784434000651,
+    "mean_power_db": -79.8735945224762,
+    "mean_power": 0.40675947070121765
+  },
+  "test_realization_ids": [
+    3
+  ],
+  "data_range_db": 40.9022102355957,
+  "synthetic": true,
+  "best_iteration": 3,
+  "sampler": "DDIM",
+  "power_normalization": {
+    "minimum_db": -96.51095581054688,
+    "range_db": 40.9022102355957,
+    "clip": false
+  },
+  "note": "Measured outputs of this run, not original paper values."
+}
+test_complete_run_saved_config_target_free_infer_and_resume (test_pipeline.PipelineTests.test_complete_run_saved_config_target_free_infer_and_resume) ... ok
+Stage I: 2 clients; 68 shared parameters
+[Stage I 1/1] val RMSE=5.9649 dB; uplink=0.000085 MB; clients=2
+Conditions: 1/6
+Conditions: 2/6
+Conditions: 3/6
+Conditions: 4/6
+Conditions: 5/6
+Conditions: 6/6
+Stage II 1/3: loss=1.039613
+Validation RMSE=8.4131 dB; best=8.4131
+Validation RMSE=8.4051 dB; best=8.4051
+Validation RMSE=8.3988 dB; best=8.3988
+{
+  "stage1": {
+    "rmse": 6.409814814608322,
+    "ssim": 0.1305733331615391,
+    "radial_mae": 5.721297480843283,
+    "trend_violation": 0.015056367353958914,
+    "mean_power_db": -78.27233123779297,
+    "mean_power": 0.4459080100059509
+  },
+  "stage2": {
+    "rmse": 7.697126189143971,
+    "ssim": 0.13028742225486598,
+    "radial_mae": 4.275627231597902,
+    "trend_violation": 0.5903784434000651,
+    "mean_power_db": -79.8735945224762,
+    "mean_power": 0.40675947070121765
+  },
+  "test_realization_ids": [
+    3
+  ],
+  "data_range_db": 40.9022102355957,
+  "synthetic": true,
+  "best_iteration": 3,
+  "sampler": "DDIM",
+  "power_normalization": {
+    "minimum_db": -96.51095581054688,
+    "range_db": 40.9022102355957,
+    "clip": false
+  },
+  "note": "Measured outputs of this run, not original paper values."
+}
+Stage I: 2 clients; 68 shared parameters
+[Stage I 1/1] val RMSE=5.9649 dB; uplink=0.000085 MB; clients=2
+Conditions: 1/6
+Conditions: 2/6
+Conditions: 3/6
+Conditions: 4/6
+Conditions: 5/6
+Conditions: 6/6
+Stage II 1/2: loss=1.039613
+Validation RMSE=8.4131 dB; best=8.4131
+Validation RMSE=8.4051 dB; best=8.4051
+{
+  "stage1": {
+    "rmse": 6.409814814608322,
+    "ssim": 0.1305733331615391,
+    "radial_mae": 5.721297480843283,
+    "trend_violation": 0.015056367353958914,
+    "mean_power_db": -78.27233123779297,
+    "mean_power": 0.4459080100059509
+  },
+  "stage2": {
+    "rmse": 7.704520414164017,
+    "ssim": 0.12984666031459086,
+    "radial_mae": 4.281149994243275,
+    "trend_violation": 0.5962675730387351,
+    "mean_power_db": -79.87197530269623,
+    "mean_power": 0.4067990481853485
+  },
+  "test_realization_ids": [
+    3
+  ],
+  "data_range_db": 40.9022102355957,
+  "synthetic": true,
+  "best_iteration": 2,
+  "sampler": "DDIM",
+  "power_normalization": {
+    "minimum_db": -96.51095581054688,
+    "range_db": 40.9022102355957,
+    "clip": false
+  },
+  "note": "Measured outputs of this run, not original paper values."
+}
+Validation RMSE=8.3988 dB; best=8.3988
+test_staged_resume_matches_continuous (test_pipeline.PipelineTests.test_staged_resume_matches_continuous) ... ok
+test_default_shared_parameter_count_and_shapes (test_quantum.QuantumTests.test_default_shared_parameter_count_and_shapes) ... ok
+test_full_circuit_preserves_norm (test_quantum.QuantumTests.test_full_circuit_preserves_norm) ... ok
+test_one_qubit_zero_angles_and_no_self_cnot (test_quantum.QuantumTests.test_one_qubit_zero_angles_and_no_self_cnot) ... ok
+test_parameter_shift_matches_adjoint_for_both_parameter_sets (test_quantum.QuantumTests.test_parameter_shift_matches_adjoint_for_both_parameter_sets) ... ok
+test_shared_input_angle_gradient_matches_finite_difference (test_quantum.QuantumTests.test_shared_input_angle_gradient_matches_finite_difference) ... ok
+test_shot_mean_variance_and_discrete_range (test_quantum.QuantumTests.test_shot_mean_variance_and_discrete_range) ... ok
+test_single_qubit_gates_preserve_analytic_states (test_quantum.QuantumTests.test_single_qubit_gates_preserve_analytic_states) ... ok
+test_all_seeds_count_and_ensemble_metric_is_distinct (test_stability.StabilityTests.test_all_seeds_count_and_ensemble_metric_is_distinct) ... ok
+test_identical_samples_have_zero_variance_and_exact_cdf (test_stability.StabilityTests.test_identical_samples_have_zero_variance_and_exact_cdf) ... ok
+test_invalid_samples_fail (test_stability.StabilityTests.test_invalid_samples_fail) ... ok
+test_masked_pixels_do_not_affect_rmse_or_cdf (test_stability.StabilityTests.test_masked_pixels_do_not_affect_rmse_or_cdf) ... ok
+
+----------------------------------------------------------------------
+Ran 55 tests in 7.161s
+
+OK

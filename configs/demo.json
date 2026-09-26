@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "seed": 42,
+  "split_seed": 2025,
+  "device": "cpu",
+  "cpu_threads": 2,
+  "query_batch_size": 256,
+  "data": {
+    "mode": "synthetic",
+    "count": 12,
+    "size": 16,
+    "client_grid": [2, 2],
+    "samples_per_client": 48,
+    "neighbor_ratio": 0.1
+  },
+  "quantum": {
+    "kind": "quantum",
+    "input_dim": 10,
+    "n_qubits": 8,
+    "n_layers": 4,
+    "hidden_dim": 32,
+    "shots": 0,
+    "gradient_method": "adjoint",
+    "entanglement": true
+  },
+  "federated": {
+    "rounds": 3,
+    "local_epochs": 1,
+    "batch_size": 24,
+    "lr": 0.003,
+    "lambda_q": 0.0001,
+    "lambda_v": 0.0001,
+    "topk_ratio": 0.5,
+    "quant_bits": 8,
+    "participation": 1.0,
+    "personalized": true,
+    "confidence_tau": 0.05,
+    "confidence_eps": 0.000001,
+    "error_feedback": false
+  },
+  "diffusion": {
+    "iterations": 24,
+    "timesteps": 32,
+    "batch_size": 2,
+    "lr": 0.001,
+    "weight_decay": 0.0,
+    "beta_start": 0.0001,
+    "beta_end": 0.02,
+    "base_channels": 8,
+    "channel_mults": [1, 2],
+    "embedding_dim": 32,
+    "sigma_pos": 0.04,
+    "loss_weights": [1.0, 0.1, 0.1],
+    "sample_steps": 8,
+    "mask_training_loss": false,
+    "grad_clip": 1.0,
+    "validate_every": 12,
+    "log_every": 6
+  },
+  "evaluation": {"radial_bins": 6},
+  "ablation": {}
+}

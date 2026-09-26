@@ -1,0 +1,33 @@
+{
+  "stage1": {
+    "rmse": 7.4112494145526515,
+    "ssim": 0.2892300671694076,
+    "radial_mae": 6.568531179877286,
+    "trend_violation": 0.004291512000876688,
+    "mean_power_db": -82.0831129650275,
+    "mean_power": 0.40789127349853516
+  },
+  "stage2": {
+    "rmse": 9.677653555440845,
+    "ssim": 0.07547782266119187,
+    "radial_mae": 5.688247546521548,
+    "trend_violation": 0.5329001654448301,
+    "mean_power_db": -83.54094930489858,
+    "mean_power": 0.3772653043270111
+  },
+  "test_realization_ids": [
+    7,
+    6,
+    11
+  ],
+  "data_range_db": 47.601261138916016,
+  "synthetic": true,
+  "best_iteration": 24,
+  "sampler": "DDIM",
+  "power_normalization": {
+    "minimum_db": -101.49925231933594,
+    "range_db": 47.601261138916016,
+    "clip": false
+  },
+  "note": "Measured outputs of this run, not original paper values."
+}
