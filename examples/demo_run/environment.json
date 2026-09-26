@@ -1,8 +1,0 @@
-{
-  "torch": "2.5.1+cu121",
-  "numpy": "1.23.5",
-  "device": "cpu",
-  "seed": 42,
-  "synthetic": true,
-  "status": "reconstructed implementation; results are not original manuscript measurements"
-}
