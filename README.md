@@ -1,9 +1,6 @@
 # IOTJ Quantum V2X — Reconstructed Implementation
 
-This repository reconstructs the two-stage quantum-assisted personalized federated diffusion method described in the 15-page `IOTJ__Quantum_V2X.pdf`. The supplied `FL_v2x.rar` and `con_diffusion_v2x.zip` were used as design references.
-
-This is a trainable, testable reconstruction, not a line-for-line recovery of the lost source code. The attachments did not include the original RadioMapSeer preprocessing, data split, trained weights, or every implementation choice. Consequently, values printed in the paper are never inserted as program output. `configs/paper.json` matches the explicit paper settings, while `configs/demo.json` exercises the complete pipeline on small synthetic data.
-
+This repository reconstructs the two-stage quantum-assisted personalized federated diffusion method described in the  `IOTJ__Quantum_V2X.pdf`. 
 ## Quick start
 
 Python 3.10–3.12 is recommended. The demo runs on CPU; full 256×256 experiments should use a CUDA GPU. No OpenAI API, cloud service, or physical quantum device is required.
